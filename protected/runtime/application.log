@@ -206,3 +206,21 @@ REQUEST_URI=/task/index.php/site/login
 in C:\wamp\www\task\protected\components\UserIdentity.php (25)
 in C:\wamp\www\task\protected\models\LoginForm.php (52)
 in C:\wamp\www\task\protected\controllers\SiteController.php (113)
+2014/10/18 19:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Task/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Task/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\task\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/task/index.php/Task/create?visible=
+HTTP_REFERER=http://localhost/task/index.php/site/login
+---
+2014/10/18 19:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Task/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Task/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\task\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/task/index.php/Task/create?visible=
+HTTP_REFERER=http://localhost/task/index.php/site/login
+---
