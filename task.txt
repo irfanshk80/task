@@ -1,0 +1,26 @@
+1. Sign Up page with username and password
+2. Sign In page with username and password
+3. Task List page of tasks:
+	• Create a task
+	• Mark task as complete
+	• Delete tasks
+
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL auto_increment primary key,
+  `name` varchar(20) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `address` varchar(100) DEFAULT NULL,
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL
+);
+
+create table task
+(
+id int not null auto_increment primary key,
+userId int not null,
+name varchar(20),
+description varchar(30),
+marked char(2),
+foreign key (userId) references user(id)
+);
