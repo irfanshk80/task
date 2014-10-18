@@ -107,4 +107,7 @@ class Task extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	public function getMarked() {
+		return $this->marked == 1 ? "Complete" : "Running";
+	}
 }

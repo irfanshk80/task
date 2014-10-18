@@ -44,7 +44,7 @@ $('.search-form form').submit(function(){
 		'userId',
 		'name',
 		'description',
-		'marked',
+		'Marked',
 		array(
 			'class'=>'CButtonColumn',
 			'template'=> '{Mark_Complete} {delete}',
