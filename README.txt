@@ -46,5 +46,3 @@ Use this urls to access the Task List Web Application
 8. Finally Logout.
 
 :)))Enjoy the Task List WebApp :)))
-
-Enjoy git update -2
